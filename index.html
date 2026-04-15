@@ -39,7 +39,9 @@
     font-size: 16px;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
   }
+  html { overflow-x: hidden; }
 
 
   /* ── HERO PHOTO ── */
@@ -719,6 +721,7 @@
     section { padding: 6rem 1.5rem 4rem; }
     .hero-layout { grid-template-columns: 1fr; }
     .hero-photo-wrap { display: none; }
+    .hero-headline { font-size: clamp(2.2rem, 9vw, 3.2rem); max-width: 100%; }
     #home { padding-bottom: 5rem; }
     .hero-scroll { display: none; }
     #why { padding: 5rem 1.5rem; }
